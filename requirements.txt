@@ -1,0 +1,6 @@
+torch==2.13.0
+# the library: wirings, cells, recursion, lattice, ACT, trainers, geometric backend
+discopy @ git+https://github.com/rel-int/discopy-next@e84d797612000c59518f2c9f8a8bd6432d23dd39
+numpy==2.5.2
+huggingface_hub==1.28.0   # data download (python -m sudoku.data, python -m maze.data)
+ninja                     # JIT build of the CUDA kernels
